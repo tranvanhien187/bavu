@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetpassFragment">
+
+    <LinearLayout
+        android:background="#E690CAF9"
+        android:orientation="vertical"
+         android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shortlogosizeto"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="QUÊN MẬT KHẨU?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập email để thay đổi mật khẩu"/>
+        <EditText
+            android:id="@+id/edtemailf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFFF"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Email của bạn"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#FFFF"
+            android:textColorHint="#FFFF" />
+        <TextView
+            android:id="@+id/txtxacnhan"
+            android:textColor="@color/white"
+            android:text="Xác nhận"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btntrolaifromqmk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:text="trở lại"
+            android:textAllCaps="false"
+            android:textColor="#90CAF9" />
+
+    </LinearLayout>
+
+</FrameLayout>
